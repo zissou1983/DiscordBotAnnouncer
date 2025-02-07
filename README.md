@@ -25,6 +25,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 ```bash
 pip install -r requirements.txt
 ```
+oder lade es von https://ollama.com/
 
 ### 3️⃣ Umgebungsvariablen setzen  
 Erstelle eine `.env` Datei und setze die API-Keys:
@@ -40,7 +41,7 @@ OLLAMA_MODEL=mistral
 
 ### 4️⃣ Bot starten
 
-Bevor der Bot gestartet wird, muss **Ollama** (https://ollama.com/) laufen. Starte den Ollama-Server mit:
+Bevor der Bot gestartet wird, muss **Ollama** laufen. Starte den Ollama-Server mit:
 ```bash
 ollama run mistral
 ```
