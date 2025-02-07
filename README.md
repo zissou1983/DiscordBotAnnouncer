@@ -12,11 +12,16 @@ Ein Discord-Bot, der Benachrichtigungen sendet, wenn abonnierte Twitch-Streamer 
 
 ### 1️⃣ Projekt klonen  
 ```bash
-git clone https://github.com/zissou1983/DiscordBotAnnouncer.git
-cd DiscordBotAnnouncer
+git clone https://github.com/dein-benutzername/dein-repository.git
+cd dein-repository
 ```
 
-### 2️⃣ Abhängigkeiten installieren  
+### 2️⃣ Abhängigkeiten installieren
+
+Zusätzlich wird **Ollama** benötigt. Installiere es mit:
+```bash
+curl -fsSL https://ollama.com/install.sh | sh
+```  
 ```bash
 pip install -r requirements.txt
 ```
@@ -30,13 +35,20 @@ TWITCH_ACCESS_TOKEN=dein_twitch_access_token
 TWITCH_USER_ID=dein_twitch_user_id
 YOUTUBE_API_KEY=dein_youtube_api_key
 OLLAMA_URL=http://localhost:11434
-OLLAMA_MODEL=dein_llm
+OLLAMA_MODEL=llava
 ```
 
-### 4️⃣ Bot starten  
+### 4️⃣ Bot starten
+
+Bevor der Bot gestartet wird, muss **Ollama** laufen. Starte den Ollama-Server mit:
 ```bash
-python discordbot.py
+ollama serve
 ```
+
+Anschließend kann der Bot gestartet werden:
+```bash
+python test.py
+```  
 
 ## 🛠️ Geplante Features
 
