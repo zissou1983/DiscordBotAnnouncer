@@ -35,7 +35,7 @@ OLLAMA_MODEL=llava
 
 ### 4️⃣ Bot starten  
 ```bash
-python test.py
+python discordbot.py
 ```
 
 ## 🛠️ Geplante Features
