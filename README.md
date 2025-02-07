@@ -30,7 +30,7 @@ TWITCH_ACCESS_TOKEN=dein_twitch_access_token
 TWITCH_USER_ID=dein_twitch_user_id
 YOUTUBE_API_KEY=dein_youtube_api_key
 OLLAMA_URL=http://localhost:11434
-OLLAMA_MODEL=llava
+OLLAMA_MODEL=dein_llm
 ```
 
 ### 4️⃣ Bot starten  
