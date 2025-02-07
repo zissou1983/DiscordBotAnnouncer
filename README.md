@@ -12,8 +12,8 @@ Ein Discord-Bot, der Benachrichtigungen sendet, wenn abonnierte Twitch-Streamer 
 
 ### 1️⃣ Projekt klonen  
 ```bash
-git clone https://github.com/dein-benutzername/dein-repository.git
-cd dein-repository
+git clone https://github.com/zissou1983/DiscordBotAnnouncer.git
+cd DiscordBotAnnouncer
 ```
 
 ### 2️⃣ Abhängigkeiten installieren  
