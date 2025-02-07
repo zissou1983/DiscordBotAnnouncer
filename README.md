@@ -6,7 +6,7 @@ Ein Discord-Bot, der Benachrichtigungen sendet, wenn abonnierte Twitch-Streamer 
 
 - 🔴 **Twitch-Überwachung**: Erkennt, wenn abonnierte Streamer online gehen oder das Spiel wechseln, und sendet eine Nachricht in einen Discord-Kanal.
 - 🎥 **YouTube-Benachrichtigungen**: Überprüft regelmäßig abonnierte Kanäle auf neue Videos und informiert über Veröffentlichungen.
-- 🤖 **Ollama LLM-Integration**: Ermöglicht interaktive Konversationen mit einem lokal gehosteten KI-Modell.
+- 🤖 **Ollama LLM-Integration**: Ermöglicht interaktive Konversationen mit einem lokal gehosteten KI-Modell (Mistral).
 
 ## 🔧 Installation
 
@@ -35,14 +35,14 @@ TWITCH_ACCESS_TOKEN=dein_twitch_access_token
 TWITCH_USER_ID=dein_twitch_user_id
 YOUTUBE_API_KEY=dein_youtube_api_key
 OLLAMA_URL=http://localhost:11434
-OLLAMA_MODEL=llava
+OLLAMA_MODEL=mistral
 ```
 
 ### 4️⃣ Bot starten
 
-Bevor der Bot gestartet wird, muss **Ollama** laufen. Starte den Ollama-Server mit:
+Bevor der Bot gestartet wird, muss **Ollama** (https://ollama.com/) laufen. Starte den Ollama-Server mit:
 ```bash
-ollama serve
+ollama run mistral
 ```
 
 Anschließend kann der Bot gestartet werden:
