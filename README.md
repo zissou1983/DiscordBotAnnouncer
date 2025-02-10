@@ -48,7 +48,7 @@ ollama run mistral
 
 Anschließend kann der Bot gestartet werden:
 ```bash
-python test.py
+python discordbot.py
 ```  
 
 ## 🛠️ Geplante Features
